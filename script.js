@@ -2,27 +2,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fade-in das seções ao scroll
     const sections = document.querySelectorAll('.fade-in');
-    
+
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
+
     const sectionObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                // Remove o observer após animação para performance
                 sectionObserver.unobserve(entry.target);
             }
         });
     }, observerOptions);
-    
+
     sections.forEach(section => {
         sectionObserver.observe(section);
     });
-    
-    // Animação suave para links de navegação (se adicionar menu)
+
+    // Smooth scroll para links internos
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -35,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // Efeito de hover adicional nos cards (se quiser mais interatividade)
+
+    // Hover effects nos cards
     const cards = document.querySelectorAll('.project-card, .stack-item, .timeline-item');
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {
@@ -46,6 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'scale(1)';
         });
     });
-    
-    console.log('Animações JS carregadas com sucesso!');
+
+    console.log('Portfolio carregado com sucesso!');
 });

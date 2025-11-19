@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rafael Bessa - Desenvolvedor Backend Java especializado em Spring Boot, APIs REST e AWS">
     <title>Rafael Bessa | Desenvolvedor Backend Java</title>
-    
+
     <!-- Google Fonts - Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- CSS Externo -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,6 +19,11 @@
             <h1>Rafael Bessa</h1>
             <p class="subtitle">Desenvolvedor Backend Java | Spring Boot | AWS</p>
             <p class="location">📍 São Paulo, Brasil</p>
+            <div class="stats">
+                <span class="stat">42+ Certificações</span>
+                <span class="stat">450+ Horas</span>
+                <span class="stat">7 Formações</span>
+            </div>
         </header>
 
         <!-- Main Content -->
@@ -26,10 +31,11 @@
             <!-- Resumo Profissional -->
             <section class="fade-in">
                 <h2>Sobre Mim</h2>
-                <div class="resumo">
-                    <p>Desenvolvedor Backend especializado em Java com foco em Spring Boot, APIs REST e segurança com autenticação JWT. Experiência sólida em desenvolvimento de sistemas escaláveis e arquitetura em camadas, com domínio do ciclo completo de desenvolvimento, desde modelagem de banco de dados até deploy containerizado com Docker. Com background em Engenharia, aplico uma abordagem estruturada para resolver problemas complexos e entregar soluções robustas e eficientes.</p>
-                </div>
+                    <div class="resumo">
+                        <p>Desenvolvedor Backend com formação em Java e Spring Boot. Domino o desenvolvimento de APIs REST, autenticação JWT, modelagem de banco de dados e deploy com Docker e AWS. Aplico esses conhecimentos em projetos seguindo boas práticas de desenvolvimento e arquitetura de software.</p>
+                    </div>
             </section>
+
 
             <!-- Stack Técnico -->
             <section class="fade-in">
@@ -38,7 +44,7 @@
                     <div class="stack-item">
                         <h3>Backend</h3>
                         <ul>
-                            <li>Java 17</li>
+                            <li>Java 8 ou Superior</li>
                             <li>Spring Boot 3.x</li>
                             <li>Spring Security</li>
                             <li>Spring Data JPA</li>
@@ -52,7 +58,7 @@
                             <li>JWT Authentication</li>
                             <li>MySQL</li>
                             <li>SQL Server</li>
-                            <li>H2</li>
+                            <li>PostgreSQL</li>
                         </ul>
                     </div>
                     <div class="stack-item">
@@ -61,7 +67,7 @@
                             <li>Docker</li>
                             <li>Docker Compose</li>
                             <li>AWS (EC2, S3, RDS)</li>
-                            <li>Deployment</li>
+                            <li>Git & GitHub</li>
                             <li>CI/CD</li>
                         </ul>
                     </div>
@@ -71,7 +77,7 @@
                             <li>JUnit</li>
                             <li>Mockito</li>
                             <li>TDD</li>
-                            <li>Clean Code</li>
+                            <li>Quality Assurance</li>
                             <li>SOLID Principles</li>
                         </ul>
                     </div>
@@ -84,108 +90,214 @@
                 <div class="projects-grid">
                     <div class="project-card">
                         <h3>TaskFlow</h3>
-                        <p>API RESTful para gerenciamento de tarefas colaborativas, inspirada em ferramentas como Trello. Arquitetura em camadas com autenticação JWT e frontend em Angular.</p>
+                        <p>API RESTful para gerenciamento de tarefas colaborativas com autenticação JWT e frontend em Angular.</p>
                         <a href="https://github.com/Rafael-Bessa/TaskFlow" target="_blank">Ver Projeto →</a>
                     </div>
                     <div class="project-card">
                         <h3>Controle de Receita Familiar</h3>
-                        <p>REST API para controle de receitas e despesas familiares. Demonstra fundamentos de Spring Boot, banco de dados relacional e containerização com Docker.</p>
+                        <p>REST API para controle de receitas e despesas familiares com Spring Boot e Docker.</p>
                         <a href="https://github.com/Rafael-Bessa/family-budget-api" target="_blank">Ver Projeto →</a>
                     </div>
                     <div class="project-card">
                         <h3>Sistema de Análise Financeira</h3>
-                        <p>Web Application completa para análise financeira com detecção de fraudes. Stack full stack com backend robusto em Spring MVC.</p>
+                        <p>Web Application para análise financeira com detecção de fraudes e backend em Spring MVC.</p>
                         <a href="https://github.com/Rafael-Bessa/financial-fraud-detector" target="_blank">Ver Projeto →</a>
                     </div>
                     <div class="project-card">
                         <h3>AdopetAPI</h3>
-                        <p>API REST para intermediação de adoções de animais, focada em integração de dados e endpoints bem documentados com Spring Boot e JPA.</p>
+                        <p>API REST para intermediação de adoções de animais com Spring Boot e JPA.</p>
                         <a href="https://github.com/Rafael-Bessa/AdopetAPI" target="_blank">Ver Projeto →</a>
                     </div>
                 </div>
             </section>
 
-            <!-- Certificações e Cursos -->
+            <!-- Certificações -->
             <section class="fade-in cert-section">
-                <h2>Certificações e Cursos</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Formação Spring Framework</h3>
-                            <span class="timeline-date">123 horas</span>
+                <h2>Certificações e Formação</h2>
+
+                <!-- DIPLOMAS (DESTAQUE NO TOPO) -->
+                <div class="diplomas-box">
+                    <h3>🎓 Formação Acadêmica</h3>
+                    <div class="diploma-item">
+                        <div class="diploma-info">
+                            <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong>
+                            <span>UNIP - Universidade Paulista (Concluído)</span>
                         </div>
-                        <p class="timeline-description">Certificação Alura em Spring Boot, MVC, Security, Data JPA e Bean Validation (2022-2024).</p>
+                        <a href="diploma-unip.pdf" target="_blank" class="btn-diploma">📄 Ver Diploma</a>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Formação Java Avançado</h3>
-                            <span class="timeline-date">121 horas</span>
+                    <div class="diploma-item">
+                        <div class="diploma-info">
+                            <strong>Engenharia Civil</strong>
+                            <span>Graduação Completa • Diploma Físico</span>
                         </div>
-                        <p class="timeline-description">OOP avançado, Collections, Streams API, Optional, TDD e JPA/Hibernate - Plataforma Alura.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Formação Engenharia de Software</h3>
-                            <span class="timeline-date">86 horas</span>
-                        </div>
-                        <p class="timeline-description">Microservices, arquitetura, DevOps, CI/CD e testes automatizados - Alura (2023-2024).</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Formação AWS Cloud</h3>
-                            <span class="timeline-date">47 horas</span>
-                        </div>
-                        <p class="timeline-description">EC2, S3, VPC, RDS, DynamoDB, IAM e Load Balancing - Certificação Alura AWS.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Formação Integração com Banco de Dados</h3>
-                            <span class="timeline-date">32 horas</span>
-                        </div>
-                        <p class="timeline-description">JDBC, JPA, modelagem de dados e otimização de queries - Alura Banco de Dados.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <h3>Scrum Foundation Professional Certificate</h3>
-                            <span class="timeline-date">Certificado</span>
-                        </div>
-                        <p class="timeline-description">Metodologias ágeis, gestão de projetos e framework Scrum - Certificação profissional.</p>
+                        <span class="diploma-physical">📜 Diploma Físico</span>
                     </div>
                 </div>
-                <div class="cursos-complementares">
-                    <h4>Cursos Complementares</h4>
-                    <ul>
-                        <li>Introdução à Ciência da Computação (USP)</li>
-                        <li>Programação Orientada a Objetos (USP)</li>
-                        <li>Desenvolvimento Ágil (ITA)</li>
-                        <li>Software Engineering Basics (IBM)</li>
+
+                <!-- DESTAQUE 1: FORMAÇÕES ALURA -->
+                <div class="highlight-box formacoes-box">
+                    <h3>🏆 Formações Completas</h3>
+                    <p class="highlight-subtitle">7 formações técnicas especializadas totalizando 535 horas de capacitação</p>
+                    <div class="formacoes-grid">
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-java-v142134-142134/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">☕</div>
+                            <div class="formacao-name">Java com OOP</div>
+                            <div class="formacao-hours">121h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-spring-framework-136314/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">🍃</div>
+                            <div class="formacao-name">Spring Framework</div>
+                            <div class="formacao-hours">123h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-spring-boot-3-475714/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">🚀</div>
+                            <div class="formacao-name">Spring Boot 3</div>
+                            <div class="formacao-hours">40h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-java-web-475746/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">🌐</div>
+                            <div class="formacao-name">Java Web MVC</div>
+                            <div class="formacao-hours">86h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-banco-dados-java-v475778-475778/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">💾</div>
+                            <div class="formacao-name">Banco de Dados</div>
+                            <div class="formacao-hours">32h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-amazon-web-services-442434/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">☁️</div>
+                            <div class="formacao-name">Amazon AWS</div>
+                            <div class="formacao-hours">47h</div>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/rafaelbessa/degree-engenharia-software-287214/certificate" target="_blank" class="formacao-card">
+                            <div class="formacao-icon">⚙️</div>
+                            <div class="formacao-name">Engenharia Software</div>
+                            <div class="formacao-hours">86h</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DESTAQUE 2: CERTIFICAÇÕES INTERNACIONAIS (COURSERA) -->
+                <div class="highlight-box coursera-box">
+                    <h3>🌎 Certificações Internacionais</h3>
+                    <p class="highlight-subtitle">Certificações por instituições de renome mundial via Coursera</p>
+
+                    <div class="coursera-institution">
+                        <h4>🎓 USP - Universidade de São Paulo</h4>
+                        <ul class="cert-list-compact">
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/2FU5RER5PYR7" target="_blank">Introdução à Ciência da Computação com Python (Parte 1)</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/3KDUX5PPFAQW" target="_blank">Introdução à Ciência da Computação com Python (Parte 2)</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/S4YDG45XYLFJ" target="_blank">Introdução ao Teste de Software</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="coursera-institution">
+                        <h4>🚀 ITA - Instituto Tecnológico de Aeronáutica</h4>
+                        <ul class="cert-list-compact">
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/9VJPM6WRQU2Y" target="_blank">Princípios de Desenvolvimento Ágil de Software</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/D2ZM9EAG7A2F" target="_blank">Desenvolvimento Ágil com Padrões de Projeto</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/DALGGVSC7Z6V" target="_blank">TDD – Desenvolvimento de Software Guiado por Testes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="coursera-institution">
+                        <h4>💼 IBM - International Business Machines</h4>
+                        <ul class="cert-list-compact">
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/PDQM42J9MPYE" target="_blank">Introduction to Software Engineering</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/8X0TE1ORZKE8" target="_blank">Introduction to Cloud Computing</a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/4DKLY9DBEHEJ" target="_blank">Getting Started with Git and GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- CURSOS COMPLEMENTARES -->
+                <div class="category">
+                    <h3>💾 Banco de Dados e SQL</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/mysql-consultas-sql/certificate" target="_blank">MySQL: Consultas SQL</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/mysql-manipule-dados-com-sql/certificate" target="_blank">MySQL: Manipulação de Dados</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/realizando-consultas-sql-joins-views-transacoes/certificate" target="_blank">SQL: Consultas com Joins, Views e Transações</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/modelagem-banco-dados-entidades-relacionamentos-atributos/certificate" target="_blank">Modelagem de Banco de Dados: Entidades e Relacionamentos</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/modelagem-banco-dados-relacional-sql/certificate" target="_blank">Modelagem de Banco de Dados Relacional</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>🔧 Versionamento e DevOps</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/git-github-controle-de-versao/certificate" target="_blank">Git e GitHub: Controle de Versão</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/git-github-repositorio-commit-versoes/certificate" target="_blank">Git e GitHub: Repositórios e Commits</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/git-github-compartilhando-colaborando-projetos/certificate" target="_blank">Git e GitHub: Colaboração em Projetos</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/windows-prompt-utilizando-cmd/certificate" target="_blank">Windows Prompt: Utilizando o CMD</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>🏃 Metodologias Ágeis e QA</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/scrum-agilidade-seu-projeto/certificate" target="_blank">Scrum: Agilidade em Seu Projeto</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/agile-scrum/certificate" target="_blank">Agile Scrum: Fundamentos</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/xp-extreme-programming/certificate" target="_blank">XP: Extreme Programming</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/equipes-ageis-organizando-papeis-equipe/certificate" target="_blank">Equipes Ágeis: Organizando Papéis</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/quality-assurance-plano-testes-gestao-bugs/certificate" target="_blank">Quality Assurance: Testes e Gestão de Bugs</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>🌐 Desenvolvimento Web</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/http-fundamentos/certificate" target="_blank">HTTP: Entendendo a Web</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/html5-css3-primeiros-passos/certificate" target="_blank">HTML5 e CSS3: Primeiros Passos</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/html5-css3-posicionamento-listas-navegacao/certificate" target="_blank">HTML5 e CSS3: Posicionamento e Navegação</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>🐍 Python</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/python-introducao-a-linguagem/certificate" target="_blank">Python: Introdução à Linguagem</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/python-3-avancando-na-linguagem/certificate" target="_blank">Python 3: Avançando na Linguagem</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/python-3-intro-orientacao-objetos/certificate" target="_blank">Python 3: Introdução à OOP</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/python-3-avancando-orientacao-objetos/certificate" target="_blank">Python 3: Avançando em OOP</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>💻 C# e .NET</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/introducao-a-programacao-com-c-parte-1/certificate" target="_blank">Introdução à Programação com C#</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/csharp-criando-primeira-aplicacao/certificate" target="_blank">C#: Criando sua Primeira Aplicação</a></li>
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/csharp-arrays-colecoes/certificate" target="_blank">C#: Arrays e Coleções</a></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>📐 Modelagem e Arquitetura</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://cursos.alura.com.br/user/rafaelbessa/course/introducao-a-uml/certificate" target="_blank">Introdução à UML</a></li>
                     </ul>
                 </div>
             </section>
 
             <!-- Contato -->
             <section class="fade-in contact-section">
-                <h2>Contato & Redes</h2>
-                <div class="contact-links">
-                    <a href="https://linkedin.com/in/rafaelmbessa" target="_blank" title="LinkedIn">💼</a>
-                    <a href="https://github.com/Rafael-Bessa" target="_blank" title="GitHub">💻</a>
-                    <a href="mailto:rafaelbessadev@gmail.com" title="Email">📧</a>
-                    <a href="https://youtube.com/@rafaelmbessa" target="_blank" title="YouTube">📺</a>
-                </div>
+                <h2>Contato</h2>
                 <div class="contact-info">
                     <p><strong>Email:</strong> <a href="mailto:rafaelbessadev@gmail.com">rafaelbessadev@gmail.com</a></p>
                     <p><strong>Telefone:</strong> <a href="tel:+5511998747263">(11) 99874-7263</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/rafaelmbessa" target="_blank">linkedin.com/in/rafaelmbessa</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Rafael-Bessa" target="_blank">github.com/Rafael-Bessa</a></p>
                 </div>
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <p>&copy; 2025 Rafael Bessa. Todos os direitos reservados. | Desenvolvido com dedicação</p>
+            <p>&copy;Rafael Bessa - Desenvolvedor Backend Java</p>
         </footer>
     </div>
 
-    <!-- JavaScript Externo -->
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
